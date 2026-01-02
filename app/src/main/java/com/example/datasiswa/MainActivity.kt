@@ -11,6 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.datasiswa.ui.DataSiswaApp
 import com.example.datasiswa.ui.theme.DatasiswaTheme
 
 class MainActivity : ComponentActivity() {
@@ -20,8 +21,8 @@ class MainActivity : ComponentActivity() {
         setContent {
             DatasiswaTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
+                    DataSiswaApp(
+//                        name = "Android",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
