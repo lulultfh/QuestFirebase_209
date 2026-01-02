@@ -56,7 +56,7 @@ fun EntrySiswaScreen(
             onSaveClick = {
                 coroutineScope.launch {
                     viewModel.addSiswa()
-                    navigateBack
+                    navigateBack()
                 }
             },
             modifier= Modifier
