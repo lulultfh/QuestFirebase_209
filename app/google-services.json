@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "82638399416",
+    "project_id": "datasiswa-9ef85",
+    "storage_bucket": "datasiswa-9ef85.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:82638399416:android:cd28d8eb33c544a77fd14d",
+        "android_client_info": {
+          "package_name": "com.example.datasiswa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9YCpRxoeOu7b-1hk65jaDWE3pJP2Hp9I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
