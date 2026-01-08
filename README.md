@@ -16,6 +16,7 @@
 |<img width="1919" height="949" alt="image" src="https://github.com/user-attachments/assets/54d3462e-2b41-4a40-9247-65f93c6b6c17" />|
 
 ## Screenshot (Pertemuan 15)
-|**Halaman Home**|**Halaman Detail**|**Halaman Edit**|
-|---|---|---|
-|<img width="1206" height="2533" alt="image" src="https://github.com/user-attachments/assets/c6412f5d-55fc-4d90-b305-00566d0ba5c7" />|<img width="1206" height="2533" alt="image" src="https://github.com/user-attachments/assets/5ea5e7d1-ad1b-47ef-bb9a-895dd8ced0c2" />|<img width="1206" height="2533" alt="image" src="https://github.com/user-attachments/assets/062f9efa-1e1f-4ac3-9d80-8463b915cc35" />|
+|**Halaman Home**|**Halaman Detail**|**Halaman Edit**|**Halaman Home (After Edit)**|
+|---|---|---|---|
+|<img width="1206" height="2533" alt="image" src="https://github.com/user-attachments/assets/c6412f5d-55fc-4d90-b305-00566d0ba5c7" />|<img width="1206" height="2533" alt="image" src="https://github.com/user-attachments/assets/5ea5e7d1-ad1b-47ef-bb9a-895dd8ced0c2" />|<img width="1206" height="2533" alt="image" src="https://github.com/user-attachments/assets/062f9efa-1e1f-4ac3-9d80-8463b915cc35" />|<img width="1206" height="2533" alt="image" src="https://github.com/user-attachments/assets/ad3b76e8-cebc-480f-a774-2b4983e169f9" />|
+
