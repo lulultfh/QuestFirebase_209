@@ -19,4 +19,5 @@
 |**Halaman Home**|**Halaman Detail**|**Halaman Edit**|**Halaman Home (After Edit)**|
 |---|---|---|---|
 |<img width="1206" height="2533" alt="image" src="https://github.com/user-attachments/assets/c6412f5d-55fc-4d90-b305-00566d0ba5c7" />|<img width="1206" height="2533" alt="image" src="https://github.com/user-attachments/assets/5ea5e7d1-ad1b-47ef-bb9a-895dd8ced0c2" />|<img width="1206" height="2533" alt="image" src="https://github.com/user-attachments/assets/062f9efa-1e1f-4ac3-9d80-8463b915cc35" />|<img width="1206" height="2533" alt="image" src="https://github.com/user-attachments/assets/ad3b76e8-cebc-480f-a774-2b4983e169f9" />|
-
+|**Halaman Hapus(Delete Confirmation)**|
+|<img width="1206" height="2533" alt="image" src="https://github.com/user-attachments/assets/4b043c20-c9cd-429d-bd99-8928087f0eb2" />|
