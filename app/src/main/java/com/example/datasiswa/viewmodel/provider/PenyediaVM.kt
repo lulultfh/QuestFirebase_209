@@ -21,5 +21,6 @@ object PenyediaVM{
         initializer { HomeVM(aplikasiDataSiswa().container.repositorySiswa) }
         initializer { EntryVM(aplikasiDataSiswa().container.repositorySiswa) }
         initializer { DetailVM(this.createSavedStateHandle(), aplikasiDataSiswa().container.repositorySiswa) }
+        initializer { EditVM(this.createSavedStateHandle(), aplikasiDataSiswa().container.repositorySiswa) }
     }
 }
