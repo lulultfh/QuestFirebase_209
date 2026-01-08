@@ -46,6 +46,52 @@ import kotlinx.coroutines.launch
 @OptIn(ExperimentalMaterial3Api::class)
 
 @Composable
+fun DetailDataSiswa(
+    siswa: Siswa?, modifier: Modifier = Modifier
+){
+    Card(
+        modifier = modifier, colors = CardDefaults.cardColors(
+            containerColor = MaterialTheme.colorScheme.primaryContainer,
+            contentColor = MaterialTheme.colorScheme.onPrimaryContainer
+        )
+    ) {
+        Column(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(dimensionResource(id = R.dimen.padding_medium)),
+            verticalArrangement = Arrangement.spacedBy(dimensionResource(R.dimen.padding_medium))
+        ) {
+            BarisDataDetail(
+                labelResID = R.string.nama1,
+                itemDetail = siswa!!.nama,
+                modifier  = Modifier.padding(
+                    horizontal = dimensionResource(
+                        R.dimen.padding_medium
+                    )
+                )
+            )
+            BarisDataDetail(
+                labelResID = R.string.alamat1,
+                itemDetail = siswa.alamat,
+                modifier  = Modifier.padding(
+                    horizontal = dimensionResource(
+                        R.dimen.padding_medium
+                    )
+                )
+            )
+            BarisDataDetail(
+                labelResID = R.string.telpon1,
+                itemDetail = siswa.telpon,
+                modifier  = Modifier.padding(
+                    horizontal = dimensionResource(
+                        R.dimen.padding_medium
+                    )
+                )
+            )
+        }
+    }
+}
+@Composable
 private fun BarisDataDetail(
     @StringRes labelResID: Int, itemDetail: String, modifier: Modifier = Modifier
 ){
@@ -55,7 +101,6 @@ private fun BarisDataDetail(
         Text(text = itemDetail, fontWeight = FontWeight.Bold)
     }
 }
-
 @Composable
 private fun DeleteConfirmationDialog(
     onDeleteConfirm: () -> Unit,
